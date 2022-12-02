@@ -11,7 +11,7 @@ export function pageLoad() {
     content.appendChild(para);
 
     const image = document.createElement('img');
-    image.src = "assets/micheile-dot-com-EOJqV9lZNDk-unsplash.jpg";
+    image.src = "../dist/assets/micheile-dot-com-EOJqV9lZNDk-unsplash.jpg";
     content.appendChild(image);
     image.style.height = '600px';
 
