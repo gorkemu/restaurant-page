@@ -15,7 +15,7 @@ export function loadMenu() {
     div1.appendChild(para1);
     
     const image1 = document.createElement('img');
-    image1.src = "../src/assets/yana-bhKdRjYJ1CA-unsplash.jpg"
+    image1.src = "assets/yana-bhKdRjYJ1CA-unsplash.jpg"
     div1.appendChild(image1);
     
     const copyright1 = document.createElement('p');
@@ -30,7 +30,7 @@ export function loadMenu() {
     div2.appendChild(para2);
 
     const image2 = document.createElement('img');
-    image2.src = "../src/assets/hoang-tran-n6wM3bld7YU-unsplash.jpg"
+    image2.src = "assets/hoang-tran-n6wM3bld7YU-unsplash.jpg"
     div2.appendChild(image2);
 
     const copyright2 = document.createElement('p');

@@ -11,10 +11,9 @@ export function pageLoad() {
     content.appendChild(para);
 
     const image = document.createElement('img');
-    image.src = "../src/assets/micheile-dot-com-EOJqV9lZNDk-unsplash.jpg";
+    image.src = "assets/micheile-dot-com-EOJqV9lZNDk-unsplash.jpg";
     content.appendChild(image);
     image.style.height = '600px';
-    // content.style.backgroundImage = "url(../src/assets/micheile-dot-com-EOJqV9lZNDk-unsplash.jpg)";
 
     const copyright = document.createElement('p');
     copyright.innerHTML = 'Photo by <a href="https://unsplash.com/@micheile?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">micheile dot com</a> on <a href="https://unsplash.com/s/photos/tea-cafe?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
